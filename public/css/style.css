@@ -1,0 +1,100 @@
+body {
+  background-color: #464d53;
+  color: #f2f2f2;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  /* background-color: #f2f2f2; */
+}
+
+#logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#links {
+  display: flex;
+}
+
+#links a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+#main-content {
+  text-align: center;
+  margin-top: 125px;
+  background: linear-gradient(to right, #EA8D8D , #A890FE); /* Gradient color */
+  -webkit-background-clip: text; /* Apply gradient to text */
+  -webkit-text-fill-color: transparent; /* Make text transparent */
+}
+
+#main-content h1 {
+  font-weight: bold;
+  font-size: 100px;
+}
+
+#main-content p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.g2-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#g2_heading {
+  text-align: center;
+  background: linear-gradient(to right, #EA8D8D, #A890FE); /* Gradient color */
+  -webkit-background-clip: text; /* Apply gradient to text */
+  -webkit-text-fill-color: transparent; /* Make text transparent */
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  padding: 30px;
+  border: 1px solid #ccc;
+}
+
+legend {
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #EA8D8D, #A890FE); /* Gradient color */
+  color: white;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
